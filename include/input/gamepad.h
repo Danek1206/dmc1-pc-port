@@ -40,8 +40,24 @@ typedef struct {
     float delta_y; /* смещение мыши Y */
 } InputCamera;
 
-/* Full input state */
-typedef struct GamepadState GamepadState;
+/* Full input state — complete definition for all modules */
+typedef struct {
+    /* Movement */
+    InputVec2 move_dir;
+    
+    /* Camera */
+    InputCamera camera;
+    
+    /* Buttons */
+    uint16_t buttons;
+    
+    /* Sensitivity */
+    float mouse_sensitivity;
+    
+    /* Raw mouse position for delta calculation */
+    int last_mouse_x;
+    int last_mouse_y;
+} GamepadState;
 
 /* Initialize input system */
 GamepadState* Gamepad_Init(void);

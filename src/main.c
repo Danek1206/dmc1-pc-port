@@ -70,9 +70,11 @@ int Game_Init(void) {
     }
     
     /* OpenGL context */
-    g_game.gl = OpenGL_Create(g_game.win32);
+    g_game.gl = OpenGL_Create((void*)g_game.win32->hwnd);
     if (!g_game.gl) {
         printf("ERROR: Failed to create OpenGL context\n");
+        MessageBoxA(NULL, "Failed to create OpenGL context.\n\nMake sure your GPU drivers are installed.", 
+                    "Graphics Error", MB_ICONERROR);
         return 0;
     }
     
@@ -102,7 +104,7 @@ int Game_Init(void) {
     
     /* Load game data from disk */
     /* TODO: Load level data from PS2 FSD files */
-    Scene_Change(g_game.scene, SCENE_GAME);
+    /* Start in game scene — controls screen handled in scene.c */
     
     printf("All systems initialized successfully!\n");
     printf("Controls:\n");

@@ -6,6 +6,8 @@
 #include "game/camera.h"
 #include "input/gamepad.h"
 #include <math.h>
+#include <stdlib.h>
+#include <GL/gl.h>
 
 #define PI 3.14159265f
 
