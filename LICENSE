@@ -1,0 +1,79 @@
+DMC1 PC Port Custom License
+===========================
+
+Copyright (c) 2024–2025 kzdan (kzdan@github)
+
+Project: DMC1 PC Port — Reverse Engineering and Native x86_64 Port of 
+         Devil May Cry 1 (PlayStation 2, 2001)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Project"), to deal
+in the Project without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or modify
+it under the following conditions:
+
+CONDITIONS:
+-----------
+
+1. **PERSONAL USE ONLY** — This project may only be used for personal, 
+   educational, and research purposes. Commercial use is strictly prohibited.
+
+2. **NO COMMERCIAL DISTRIBUTION** — You may NOT sell, license, or otherwise
+   distribute this project or any derivative works for commercial purposes.
+
+3. **NO GAME STORES** — You may NOT list, publish, or distribute this project
+   on any game distribution platform, including but not limited to:
+   - Steam
+   - Epic Games Store
+   - GOG
+   - itch.io (for paid listings)
+   - Any other digital storefront
+
+4. **ATTRIBUTION** — Any derivative works must include:
+   - Original author credit (kzdan)
+   - This license file
+   - A disclaimer that Devil May Cry is © Capcom
+
+5. **CAPCOM INTELLECTUAL PROPERTY** — Devil May Cry, all characters, artwork,
+   music, and game assets are the intellectual property of Capcom Co., Ltd.
+   This project does NOT claim any ownership over Capcom's intellectual property.
+
+DISCLAIMER:
+-----------
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THIS SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+ADDENDUM:
+---------
+
+This project is a reverse engineering effort for educational and research
+purposes only. The author (kzdan) does not endorse piracy. If you wish to
+play Devil May Cry officially, please purchase the Devil May Cry HD Collection
+available on Steam and other legitimate platforms.
+
+Devil May Cry © Capcom Co., Ltd. All rights reserved.
+https://www.capcom.com/
+
+---
+
+## Русская версия / Russian Version
+
+Данная лицензия применяется к проекту DMC1 PC Port.
+
+**Разрешено:**
+- Личное использование для изучения и исследования
+- Форки и модификации с сохранением этой лицензии
+- Цитирование с указанием авторства (kzdan)
+
+**Запрещено:**
+- Коммерческое использование и продажа
+- Размещение в Steam, Epic Games и других магазинах
+- Удаление или изменение этой лицензии
+
+Devil May Cry © Capcom Co., Ltd. Все права защищены.

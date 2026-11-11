@@ -1,0 +1,42 @@
+# Build artifacts
+build/
+*.o
+*.exe
+*.a
+*.lib
+*.so
+*.dll
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# PS2 data (large files, not tracked in git)
+data/
+*.iso
+*.bin
+*.cue
+
+# Config files (local)
+*.cfg
+!.gitignore
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# Compiler cache
+.clang-complete
+.compile_commands.json
