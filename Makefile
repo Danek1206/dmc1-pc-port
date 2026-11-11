@@ -27,7 +27,10 @@ SRCS = $(SRC_DIR)/main.c \
        $(SRC_DIR)/game/player.c \
        $(SRC_DIR)/game/camera.c \
        $(SRC_DIR)/game/world.c \
-       $(SRC_DIR)/game/scene.c
+       $(SRC_DIR)/game/scene.c \
+       $(SRC_DIR)/loader/tim2.c \
+       $(SRC_DIR)/loader/pld.c \
+       $(SRC_DIR)/loader/fsd.c
 
 # Object files
 OBJS = $(patsubst $(SRC_DIR)/%.c,$(BUILD_DIR)/%.o,$(SRCS))
