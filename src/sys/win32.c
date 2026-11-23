@@ -5,6 +5,7 @@
 
 #include "sys/win32.h"
 #include <windows.h>
+#include <stdlib.h>
 
 /* ============================================
  * Внутренние функции окна

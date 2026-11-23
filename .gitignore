@@ -1,6 +1,8 @@
 # Build artifacts
 build/
 *.o
+*.obj
+*.res
 *.exe
 *.a
 *.lib
@@ -24,6 +26,7 @@ desktop.ini
 
 # PS2 data (large files, not tracked in git)
 data/
+assets/
 *.iso
 *.bin
 *.cue
@@ -36,6 +39,7 @@ data/
 *.tmp
 *.bak
 *.backup
+*.ico
 
 # Compiler cache
 .clang-complete
